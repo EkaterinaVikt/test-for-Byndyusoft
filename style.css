@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+main {
+  display: flex;
+
+  width: 600px;
+  margin: auto;
+  height: 400px;
+}
+
+#btn-get-result,
+#input {
+  height: 100px;
+  flex-grow: 1;
+}
+
+#result {
+  width: fit-content;
+  border: 1px solid black;
+  height: 100px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 18px;
+  padding: 5px;
+  flex-grow: 2;
+}
